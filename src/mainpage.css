@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    /* Creating some styles to the Navigation Bar */
+    width: 99vw;
+    display: flex;
+    height: 222px;
+    flex-direction: row;
+    padding-bottom: 7px;
+    box-shadow: 0 0 9px 7px white;
+}
+.image{
+    /* Defining Height and Width to the image in Navigation Bar */
+    width: 10vw;
+    height: 200px;
+    width:max-content;
+}
+.bankdetails{
+    /* Making Bank Name and Options to be places by column */
+    display: flex;
+    flex-direction: column;
+}
+.bankname{
+    /* Styling Bank Name with Shadows and using flex for alignment */
+    color: #9F1D27;
+    font-size: 33px;
+    height: 133px;
+    font: oblique;
+    display: flex;
+    justify-content: center;
+    width:87vw;
+    padding-right: 3rem;
+    /* padding-top: 2.7rem; */
+}
+.options{
+    /* Styling Options */
+    font-size: 1.6em;
+    height: 70px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: normal;
+    width: 83vw;
+    height:11vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 3px;
+}
+.options table tr{
+    /* Placing options with good spaces using flex */
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+}
+.options table tr th{
+    /* Making options to look good and better */
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 11px;
+}
+.options tr :hover{
+    /* Adding hover to options */
+    transform: scale(1.03);
+    transition-duration: 369ms;
+}
+.marqclass{
+    /* Styling the div of Banner Image and Marquee */
+    padding-top: 1.5rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1.5rem;
+    margin-bottom: 20px;
+}
+.marqclass :hover{
+    /* Adding hover to marqclass */
+    transform: scale(1.015);
+    transition-duration: 369ms;
+}
+#marqtag{
+    /* Styling Marquee Tag */
+    width: 50%;
+    margin: 11px;
+    text-shadow:1px 0 1px rgb(5, 0, 0);
+    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    margin-right: 3.1rem;
+    box-shadow: 0 0 11px 5px rgb(255, 255, 255);
+    padding-left: 1%;
+}
+#bannerimage{
+    /* Styling Banner image */
+    border-radius: 33px;
+    .foupar :hover{
+    transform: scale(1.1);
+    transition-duration: 369ms;
+}
+}
+.infobank{
+    /* Styling the div of Bank Information */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 13px;
+}
+.infobank :hover{
+    /* Adding hover to BankInformation */
+    transform: scale(1.03);
+    transition-duration: 369ms;
+}
+.foupar{
+    /* Styling Bank Information about Founders and Partners */
+    border: 3px solid black;
+    align-self: center;
+    justify-self: center;
+    text-shadow:1px 0 1px rgb(5, 0, 0);
+    color: rgb(0, 0, 0);
+    padding-right: 44px;
+    padding-left: 44px;
+    padding-top: 44px;
+    box-shadow: 0 0 7px 3px  rgb(255, 255, 255);
+}
+.foupar :hover{
+    /* Adding hover to foupar class */
+    transform: scale(1.1);
+    transition-duration: 369ms;
+}
+.loans{
+    /* Styling Loans Div */
+    text-shadow:1px 0 1px rgb(5, 0, 0);
+    color: rgb(0, 0, 0);
+    padding-left: 44px;
+    margin-right: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-shadow: 0 0 7px 3px  rgb(255, 255, 255);
+}
+.loans :hover{
+    /* Adding hover to Loans Div */
+    transform: scale(1.03);
+    transition-duration: 369px;
+}
+.services{
+    /* Styling Services */
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+.services h1{
+    font-size: 44px;
+    padding-left: 3rem;
+    text-shadow:1px 0 3px white;
+}
+.serimg{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.serimg img {
+    /* Styling Services Images */
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    box-shadow: 0 0 3px 3px  rgb(167, 165, 165);
+}
